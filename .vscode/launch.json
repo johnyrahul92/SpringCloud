@@ -9,6 +9,36 @@
             "projectName": "config-server",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GuestServicesApplication<guest-services>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.joo.guestservices.GuestServicesApplication",
+            "projectName": "guest-services",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ReservationServicesApplication<reservation-services>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.joo.reservationservices.ReservationServicesApplication",
+            "projectName": "reservation-services",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RommServicesApplication<room-services>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.joo.rommservices.RommServicesApplication",
+            "projectName": "room-services",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
