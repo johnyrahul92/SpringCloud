@@ -39,6 +39,26 @@
             "projectName": "room-services",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EuerkaServerApplication<euerka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.joo.euerkaserver.EuerkaServerApplication",
+            "projectName": "euerka-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FeignClientApplication<feign-client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.joo.feignclient.FeignClientApplication",
+            "projectName": "feign-client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
